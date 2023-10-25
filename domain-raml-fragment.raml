@@ -1,0 +1,31 @@
+#%RAML 1.0 Library
+
+# Datatype file mapping
+types:
+  # type and example in separate files
+  request-post-customers: 
+    type: !include datatypes/v1/requests/customers/post-customers.raml
+    example: !include examples/v1/requests/customers/post-customers.json
+
+  response-post-customers:
+    type: !include datatypes/v1/responses/customers/post-customers.raml
+    example: !include examples/v1/responses/customers/post-customers.json
+
+  # type and example in files together
+  request-put-customers-id:
+    type: !include datatypes/v1/requests/customers/id/put-customers-id.raml
+    
+  response-put-customers-id:
+    type: !include datatypes/v1/responses/customers/id/put-customers-id.raml
+
+  request-post-customers-image: 
+    type: !include datatypes/v1/requests/customers/image/post-image.raml
+
+  response-post-customers-image: 
+    type: !include datatypes/v1/responses/customers/image/post-image.raml
+
+  response-get-customers:
+    type: !include datatypes/v1/responses/customers/get-customers.raml
+
+  response-get-customers-id:
+    type: !include datatypes/v1/responses/customers/id/get-customers-id.raml

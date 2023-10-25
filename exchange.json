@@ -1,0 +1,13 @@
+{
+  "descriptorVersion": "0.1.0",
+  "classifier": "raml-fragment",
+  "main": "domain-raml-fragment.raml",
+  "tags": [],
+  "name": "domain-raml-fragment",
+  "groupId": "",
+  "organizationId": "",
+  "assetId": "domain-raml-fragment",
+  "version": "1.0.0",
+  "apiVersion": "v1",
+  "originalFormatVersion": "1.0"
+}
